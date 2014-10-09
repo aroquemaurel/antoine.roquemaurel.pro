@@ -48,24 +48,24 @@
 					style="margin-top:-20px;">Antoine de Roquemaurel</a>
                         <ul class="list-inline" style="height:90px;">
                             <li>
-                                <a href="https://twitter.com/satenske" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a id="tool1" data-toggle="tooltip" title="Twitter" href="https://twitter.com/satenske" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/antoinederoquemaurel" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a id="tool2" data-toggle="tooltip" title="Linkedin" href="https://www.linkedin.com/in/antoinederoquemaurel" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="http://fr.viadeo.com/fr/profile/antoine.de-roquemaurel"
+                                <a id="tool3" data-toggle="tooltip" title="Viadeo" href="http://fr.viadeo.com/fr/profile/antoine.de-roquemaurel"
 									class="btn-social btn-outline"><img
 									style="width:20px;height:20px"
 									src="img/viadeo.png" class="fa fa-fw
 										fa-vimeo-square"></i></a>
                             </li>
                             <li>
-                                <a href="https://github.com/satenske" class="btn-social btn-outline"><i class="fa fa-fw
+                                <a id="tool4" data-toggle="tooltip" title="Github" href="https://github.com/satenske" class="btn-social btn-outline"><i class="fa fa-fw
 										fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="https://plus.google.com/114205563597924511525" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a id="tool5" data-toggle="tooltip" title="Google+"href="https://plus.google.com/114205563597924511525" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                             </li>
                         </ul>
             </div>
@@ -475,7 +475,13 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
-
+	<script type="text/javascript">
+		$('#tool1').tooltip('hide');
+		$('#tool2').tooltip('hide');
+		$('#tool3').tooltip('hide');
+		$('#tool4').tooltip('hide');
+		$('#tool5').tooltip('hide');
+	</script>
 </body>
 
 </html>
