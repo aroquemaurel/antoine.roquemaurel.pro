@@ -478,3 +478,20 @@ div.img-div{
 	display:block;
 	background-position-y:25% 
 }
+.circular-profile {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../img/Photo.jpg) no-repeat;
+}
+
+.circular-avatar {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../img/profile.png) no-repeat;
+}
