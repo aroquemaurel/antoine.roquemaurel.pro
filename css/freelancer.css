@@ -121,6 +121,10 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
+
+	#headerSocial{
+		display: inline;
+	}
 }
 
 @media(min-width:768px) {
@@ -193,6 +197,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+
+	#headerSocial{
+		display: none;
+	}
 }
 
 #portfolio .portfolio-item {
