@@ -14,3 +14,11 @@ a:hover {
 .btn.otherbtn:hover {
 	color: black;
  }
+
+ .footer {
+	 bottom: 0;
+	 margin-bottom: -52px;
+	 margin-left: -8px;
+	 width: 101%;
+	 position: relative;
+}
