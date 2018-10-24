@@ -1,540 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
+		<title>Antoine de Roquemaurel — Développeur</title>
+		<meta name="description" content="Antoine de Roquemaurel, Développeur Freelance et développeut consultant chez Extia">
+		<meta name="keywords" content="Développeur, Logiciel, Mise en forme, Paris, Paul Sabatier, Consultant, Extia, Freelance, Master, DL, Logiciel, Web" >
+		<meta name="author" content="Antoine de Roquemaurel">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style/css/main.css">
+		<link href="style/css/bootstrap.min.css" rel="stylesheet">
+		<link href="style/css/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="style/css/custom.css">
+	</head>
 
-    <title>Antoine de Roquemaurel — Développeur Freelance</title>
+		<body>
+			<div id="particles-js">
+				<div class="header">
+					<span style="font-size: 50pt" class="site-title" >Antoine<br/> de Roquemaurel</span>
+					<img class="circle" style="margin-top: 70px" height="200px" src="img/Photo.jpg"/>
+					<img class="circle" style="margin-top: 70px; margin-left: 20px" height="200px" src="img/profile.png">
+					<span class="site-description" style="margin-top: 70px;margin-bottom:70px" >Développeur logiciel</span>
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-
-	<meta name="description" content="Antoine de Roquemaurel, Développeur Freelance et développeut consultant chez Extia">
-	<meta name="keywords" content="Développeur, Logiciel, Mise en forme, Paris, Paul Sabatier, Consultant, Extia, Freelance, Master, DL, Logiciel, Web" >
-	<meta name="author" content="Antoine de Roquemaurel">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" class="index">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61573960-3', 'auto');
-    ga('send', 'pageview');
-
-</script>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top"
-					style="margin-top:-20px;">Antoine de Roquemaurel</a>
-				<div id="headerSocial">
-                        <ul class="list-inline" style="height:90px;">
-                            <li>
-                                <a id="tool1" data-toggle="tooltip" title="Twitter" href="https://twitter.com/satenske" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool2"
-									data-toggle="tooltip"
-									title="Linkedin"
-									href="https://www.linkedin.com/in/antoinederoquemaurel" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool3" data-toggle="tooltip" title="Viadeo" href="http://fr.viadeo.com/fr/profile/antoine.de-roquemaurel"
-									class="btn-social btn-outline"><img
-									style="width:20px;height:20px"
-									src="img/viadeo.png" class="fa fa-fw
-										fa-vimeo-square"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool4" data-toggle="tooltip" title="Github"
-									href="https://github.com/aroquemaurel" class="btn-social btn-outline"><i class="fa fa-fw
-										fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool5" data-toggle="tooltip" title="Google+"href="https://plus.google.com/114205563597924511525" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool6" data-toggle="tooltip"
-									title="Developpez.com"href="http://www.developpez.com/user/profil/420168/satenske" 
-									class="btn-social btn-outline"><i class="fa fa-fw">D</i></a>
-                            </li>
-                        </ul>
+					<div class="header-icons">
+						<a aria-label="Envoyer un email" href="mailto:antoine.job@roquemaurel.pro"><i class="icon fa fa-envelope"></i></a>
+						<a aria-label="Mon Twitter" target="_blank" href="https://twitter.com/satenske"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+						<a aria-label="Mon Github" target="_blank" href="https://github.com/aroquemaurel"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+						<a aria-label="Mon Linkedin" style="margin-top: 10px"  target="_blank" href="https://www.linkedin.com/in/antoinederoquemaurel/"><i class="icon"><img src="img/logos/linkedin.png" width="35" height="35" alt="LinkedIn"/></i></a>
+						<a aria-label="Mon Viadeo" style="margin-top: 10px"  target="_blank" href="http://fr.viadeo.com/fr/profile/antoine.de-roquemaurel/"><i class="icon"><img src="img/logos/viadeo.png" width="35" height="35" alt="LinkedIn"/></i></a>
+						<a aria-label="Mon Google Plus" target="_blank" href="https://plus.google.com/114205563597924511525"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
+						<a aria-label="Mon SensCritique" style="margin-top: 10px"  target="_blank" href="https://www.senscritique.com/antoinederoquemaurel/"><i class="icon"><img
+								src="img/logos/senscritique.png" width="35" height="35" alt="LinkedIn"/></i></a>
 					</div>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">À propos</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="https://github.com/aroquemaurel/Curriculum-VItae/raw/master/src/cv.pdf">CV</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
+					<div class="header-links">
+						<a class="link" href="#about" data-scroll>À propos</a> <a class="link" href="#projects" data-scroll>Projets</a>
+					</div>
+				</div>
+				<a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+			</div>
+    <div id="about">
         <div class="container">
             <div class="row">
-						<div style="margin-top:-30px;display: inline-block; left; margin-right: 50px" class="circular-avatar"></div>
-						<div style="margin-top:-30px;display:inline-block;" class="circular-profile"></div>
-                    <div class="intro-text">
-                        <span class="name">Développeur Freelance</span>
-                        <hr class="star-light">
-                        <span class="skills">Logiciels — Sites Web </span>
-                    </div>
+                <div class="col-md-4">
+                    <h2 class="heading">À propos</h2>
                 </div>
-            </div>
-        </div>
-    </header>
+                <div class="col-md-8">
+                    <p>
+					Diplômé d'un Master Développement Logiciel à l'université Toulouse III, je suis ingénieur consultant à Paris chez Extia et développeur
+					freelance.<br/><br/></p>
 
+					<p>J'effectue toute sortes de projets : aussi bien des sites webs que des applications « lourdes », j'ai également les compétences pour faire de la mise en forme avancée de
+					livres ou d'articles scientifiques à l'aide de LaTeX.<br/><br/>
+					</p>
 
-    <!-- About Section -->
-    <section class="" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>À propos</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-					<ul>
-						<li>Né le 08/11/1991</li>
-						<li>Habite à Paris</li>
+					<ul style="list-style-type: none">
+						<li><a href="https://github.com/aroquemaurel/Curriculum-VItae/raw/master/src/cv.pdf" class="btn btn-lg otherbtn">
+							<i class="fa fa-download"></i> Télécharger mon CV
+						</a>
+						</li>
+						<li><a href="mailto:antoine.job@roquemaurel.pro" class="btn btn-lg otherbtn">
+							<i class="fa fa-envelope"></i> Me contacter par email
+						</a>
+						</li>
 					</ul>
-					<p>
-						Diplomé de Master Développement Logiciel à l'université Toulouse
-						III — Paul Sabatier, je suis consultant chez Extia et développeur freelance déclaré
-						en tant qu'auto-entrepreneur.
+					
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2016 – Aujourd'hui">
+                <h3>Extia</h3>
+                <h4>Ingénieur consultant</h4>
+                <p>
+				Ingénieur en développement logiciel. Actuellement responsable technique chez Tech Advantage pour le développement d'un
+				plugin Eclipse RCP ayant pour but la simulation d'écoulements de fluides. Équipe composée de 5 à 10 personnes.
+                </p>
+            </div>
+
+            <div data-date="September 2015 – September 2016">
+                <h3>Auto-Entrepreneur</h3>
+                <h4>Développeur Freelance </h4>
+                <p>
+				 Développement de logiciels ou de sites webs en tant que développeur Freelance.
+                </p>
+            </div>
+
+            <div data-date="September 2015 – September 2016">
+                <h3>Continental</h3>
+				<h4>Développeur d'outils</h4>
+				<p>
+				Développement d'un outil de tests ayant pour but de tester la bonne intégration d'un plugin présent dans un logiciel de
+				calculateur de contrôle moteur.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="projects">
+		<h2 class="heading">Projets</h2>
+		<div class="container">
+			<div class="row">
+				<div class="project shadow-large">
+					<div class="project-image">
+						<img src="img/portfolio/valerie.png" />
+					</div>
+					<!-- End .project-image -->
+					<div class="project-info">
+						<h3>Site Web <a href="https://valeriederoquemaurel.com">valeriederoquemaurel.com</a></h3>
+						<p>
+						Développement du site web de Valérie de Roquemaurel, artisan verrier. 
+						</p>
+						<p>
+						Développé en Python avec le framework Django. Gestion d'une gallerie, d'événements et d'articles de presse.
+						</p>
+					</div>
+					<!-- End .project-info -->
+				</div>
+			<div class="row">
+				<div class="project shadow-large">
+					<div class="project-image">
+						<img src="img/portfolio/afmck.png" />
+					</div>
+					<!-- End .project-image -->
+					<div class="project-info">
+						<h3>Site Web afmck.fr</h3>
+						<p>
+							Refonte du site web afmck.Fr, développement de l'intégralité du site en PHP avec un framework « maison »
+						</p>
+						<p>
+Espace membre pour les adhérents, gestion des groupes et des droits d'accès, validation des comptes, design, …	
+						</p>
+					</div>
+					<!-- End .project-info -->
+				</div>
+				<!-- End .project -->
+
+				<div class="project shadow-large">
+					<div class="project-image">
+						<img src="img/portfolio/bilanMDT.png" />
+					</div>
+					<!-- End .project-image -->
+					<div class="project-info">
+						<h3>Logiciel de bilans kinésithérapeutes</h3>
+						<p>
+						Développement d'une application à destination de l'association Française Mckenzie (<a href="https://afmck.fr">https://afmck.fr</a>).
+						</p>
+						<p>
+Ce logiciel permet au Kinés d'avoir une base de données de patients et d'effectuer des bilans sur ces même patient. Une fois un bilan effectué, une génération au format PDF s'effectue, ceci à pour principal intérêt de s'écarter du format papier classique qui prend du temps à remplir.
 					</p>
-                </div>
-                <div class="col-lg-4">
 					<p>
-					J'effectue toute sortes de projets : aussi bien des sites webs que des
-					applications « lourdes », j'ai également les compétences pour faire de la mise en forme avancée de
-					livres ou d'articles scientifiques à l'aide de LaTeX.
-					</p>
-					<p>
-					Vous pouvez voir des exemples de réalisations dans mon <a href="#portfolio">portfolio</a>.
-					</p>
-					<p>
-					Je travail principalement avec des associations ou des petites structures.
-					</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="./cv_fr.pdf" class="btn btn-lg otherbtn">
-                        <i class="fa fa-download"></i> Télécharger mon CV 
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio Grid Section -->
-    <section class="success" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i> <br/>Logiciel de bilans kinésithérapeutes
-                            </div>
-                        </div>
-                        <img src="img/portfolio/bilanMDT.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i><br/>Site web afmck.fr
-                            </div>
-                        </div>
-                        <img src="img/portfolio/afmck.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i><br/>Logiciel de devis et facturation
-                            </div>
-                        </div>
-                        <img src="img/portfolio/factdev.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4  portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i><br/>Bibliothèque d'objets graphiques UML
-                            </div>
-                        </div>
-                        <img src="img/portfolio/libuml.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4  portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i><br/>Site web valeriederoquemaurel.com
-                            </div>
-                        </div>
-                        <img src="img/portfolio/valerie.png" class="img-responsive" alt="">
-                    </a>
-                </div>
+Ce logiciel est développé en C++ à l'aide de la bibliothèque Qt, ainsi l'application est disponible sous Windows, Mac OS et Linux.
+						</p>
+					</div>
+					<!-- End .project-info -->
+				</div>
+				<!-- End .project -->
+			</div>
+		</div>
+	</div>
+	<!-- End #projects 
+	<section id="about">
+		<div class="user-details">
+			<h1> My Expertise </h1>
+			<p> Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS. </p>
+		</div>
+		<div class="user">
+			<div class="tech">
+				<h2>Design</h2>
+				<i class="devicon-html5-plain-wordmark"></i>
+				<i class="devicon-bootstrap-plain-wordmark colored"></i>
+				<i class="devicon-sass-original colored"></i>
+				<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+				Vinyl XOXO lumbersexual</p>
+			</div>
+			<div class="tech">
+				<h2>Code</h2>
+				<i class="devicon-javascript-plain colored"></i>
+				<i class="devicon-react-original-wordmark colored"></i>
+				<i class="devicon-nodejs-plain-wordmark"></i>
+				<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+				Vinyl XOXO lumbersexual</p>
+			</div>
+			<div class="tech">
+				<h2>Tools</h2>
+				<i class="devicon-git-plain"></i>
+				<i class="devicon-gulp-plain colored"></i>
+				<i class="devicon-atom-original-wordmark"></i>
+				<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+				Vinyl XOXO lumbersexual</p>
+			</div>
+		</div>
 
-            </div>
-        </div>
-    </section>
+	</section>
+	<section id="projects">
+		<div class="user-details">
+			<h1> Featured Projects </h1>
+		</div>
+		<div class="user-projects">
+			<div class="images-right">
+				<img alt="mountains" src="/particle/assets/img/mountains.jpg" />
+			</div>
+			<div class="contents">
+				<h3> Project Title </h3>
+				<ul>
+					<li> Featured Skills</li>
+				</ul>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<a class="project-link" href="#">Check it out</a>
+			</div>
+		</div>
+		<div class="user-projects">
+			<div class="images-left">
+				<img alt="mountains" src="/particle/assets/img/skate.jpg" />
+			</div>
+			<div class="contents-right">
+				<h3> Project Title </h3>
+				<ul>
+					<li> Featured Skills</li>
+				</ul>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<a class="project-link" href="#">Check it out</a>
+			</div>
+		</div>
 
-    <section class="" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Me contacter</h2>
-                    <hr class="star-primary">
-					<p>
-					Vous pouvez me contacter pour un devis, pour une faisabilité ou pour un
-					renseignement à l'adresse e-mail ci-dessous, j'essayerai de vous répondre
-					dans les plus brefs délais.
-					</p>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="mailto:antoine.roquemaurel@gmail.com" class="btn btn-lg
-						otherbtn">
-                        <i class="glyphicon glyphicon-envelope"></i>&nbsp; antoine.roquemaurel@gmail.com 
-                    </a>
-                </div>
+	</section>
+	-->
+	<footer class="footer">
+	<div class="header-icons">
+		<a aria-label="Envoyer un email" href="mailto:antoine.job@roquemaurel.pro"><i class="icon fa fa-envelope"></i></a>
+		<a aria-label="Mon Twitter" target="_blank" href="https://twitter.com/satenske"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+		<a aria-label="Mon Github" target="_blank" href="https://github.com/aroquemaurel"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+		<a aria-label="Mon Linkedin" style="margin-top: 10px"  target="_blank" href="https://www.linkedin.com/in/antoinederoquemaurel/"><i class="icon"><img src="img/logos/linkedin.png" width="35" height="35" alt="LinkedIn"/></i></a>
+		<a aria-label="Mon Viadeo" style="margin-top: 10px"  target="_blank" href="http://fr.viadeo.com/fr/profile/antoine.de-roquemaurel/"><i class="icon"><img src="img/logos/viadeo.png" width="35" height="35" alt="LinkedIn"/></i></a>
+		<a aria-label="Mon Google Plus" target="_blank" href="https://plus.google.com/114205563597924511525"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
+		<a aria-label="Mon SensCritique" style="margin-top: 10px"  target="_blank" href="https://www.senscritique.com/antoinederoquemaurel/"><i class="icon"><img
+				src="img/logos/senscritique.png" width="35" height="35" alt="LinkedIn"/></i></a>
+	</div>
+	</footer>
+	<script src="style/js/particles.min.js"></script>
+	<script src="style/js/sweet-scroll.min.js"></script>
+	<script src="style/js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="style/js/script.min.js"></script>
+		</body>
 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Localisation</h3>
-						<p>Paris</p>
-                    </div>
-                    <div class="footer-col col-md-5">
-                        <h3>Réseaux sociaux</h3>
-                        <ul class="list-inline" style="height:90px;">
-                            <li>
-                                <a id="tool11" data-toggle="tooltip" title="Twitter" href="https://twitter.com/satenske" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool12"
-									data-toggle="tooltip"
-									title="Linkedin"
-									href="https://www.linkedin.com/in/antoinederoquemaurel" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool13" data-toggle="tooltip" title="Viadeo" href="http://fr.viadeo.com/fr/profile/antoine.de-roquemaurel"
-									class="btn-social btn-outline"><img
-									style="width:20px;height:20px"
-									src="img/viadeo.png" class="fa fa-fw
-										fa-vimeo-square"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool14" data-toggle="tooltip" title="Github"
-									href="https://github.com/aroquemaurel" class="btn-social btn-outline"><i class="fa fa-fw
-										fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool15" data-toggle="tooltip" title="Google+"href="https://plus.google.com/114205563597924511525" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a id="tool16" data-toggle="tooltip"
-									title="Developpez.com"href="http://www.developpez.com/user/profil/420168/satenske" 
-									class="btn-social btn-outline"><i class="fa fa-fw">D</i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Antoine de Roquemaurel 2015
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Bilans Kinésithérapeutes</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/bilanMDT.png" class="img-responsive img-centered" alt="">
-                            <p>
-                                Développement d'une application à destination de l'association Française Mckenzie (<a href="http://www.afmck.fr/">http://afmck.fr</a>).<br/>
-                                Ce logiciel permet au Kinés d'avoir une base de données de patients et d'effectuer des bilans sur ces même patient. Une fois un bilan effectué, une génération au format PDF s'effectue, ceci à pour principal intérêt de s'écarter du format papier classique qui prend du temps à remplir.<br/>
-                                Ce logiciel est développé en C++ à l'aide de la bibliothèque Qt, ainsi l'application est disponible sous Windows, Mac OS et Linux.
-                            </p>
-                            <ul class="item-details" style="list-style-type: none">
-                                <li><b>Client</b>
-                                    <a href="http://afmck.fr">Association Française McKenzie</a>
-                                </li>
-                                <li><b>Date</b> Juillet 2013 — Actuellement
-                                </li>
-                                <li><b>Service</b> Développement et maintenance applicative
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Site web afmck.fr</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/afmck.png" class="img-responsive img-centered" alt="">
-                            <p>Refonte du site web afmck.Fr, développement de l'intégralité du site en PHP avec un framework « maison »</p>
-                            <p>Espace membre pour les adhérents, gestion des groupes et des droits d'accès, validation des comptes, design, …</p>
-                            <ul class="item-details" style="list-style-type: none">
-                                <li><b>Client</b>
-                                    <a href="http://afmck.fr">Association Française McKenzie</a>
-                                </li>
-                                <li><b>Date</b> Décembre 2013 - Actuellement
-                                </li>
-                                <li><b>Service</b> Développement et maintenance web
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>FactDev</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/factdev.png" class="img-responsive img-centered" alt="">
-                            <p>
-                                Développement d'un logiciel de devis et de facturation pour un usage personnel, celui-ci à été développé à 4 personnes dans le cadre d'un projet universitaire de Master 1.
-                            </p>
-                            <p>Logiciel développé en C++ en utilisant la bibliothèque Qt, génération de factures et de devis en LaTeX, gestion d'une base de données de clients</p>
-                            <ul class="item-details" style="list-style-type: none">
-                                <li><b>Client</b> Université Toulouse III — Paul Sabatier, Moi</li>
-                                <li><b>Date</b> Décembre 2014 — Actuellement
-                                </li>
-                                <li><b>Service</b> Développement applicatif
-                                </li>
-                                <li><b>Site web</b><i class="glyphicon glyphicon-globe"></i>&nbsp; <a href="https://fact-team.github.io/">https://fact-team.github.io/</a></li>
-
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>LibUML</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/libuml.png" class="img-responsive img-centered" alt="">
-                            <p>L’objectif de ce projet était de réaliser une bibliothèque d’objets graphiques représentant les différents éléments de modélisation de la norme UML 2. Cette bibliothèque utilise la bibliothèque JGraphX qui propose un ensemble de fonctionnalités permettant de réaliser des graphes.</p>
-                            <p>
-                                La biblitohèque à été développé en Java en suivant un cycle incrémental, nous avons ainsi pu réaliser des diagrammes de cas d'utilisation, des diagrammes de classe et des diagrammes de séquences.
-                            </p>
-                            <ul class="item-details" style="list-style-type: none">
-                                <li><b>Client</b> IUT 'A' – Paul Sabatier
-                                </li>
-                                <li><b>Date</b> Septembre 2011 — Janvier 2012
-                                </li>
-                                <li><b>Service</b> Développement d'une bibliothèque
-                                </li>
-                                <li><b>Github</b><i class="glyphicon glyphicon-globe"></i>&nbsp; <a href="https://github.com/aroquemaurel/LibUML">https://github.com/aroquemaurel/LibUML</a></li>
-
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Site www.valeriederoquemaurel.com</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/valerie.png" class="img-responsive img-centered" alt="">
-                            <p>Développement du site d’un artisan verrier, destiné à exposer ses pièces. Celui-ci est développé à l’aide du framework PHP Symfony2. L’artisan peut administrer le site seul, comme il l’avait demandé.</p>
-                            <ul class="item-details" style="list-style-type: none">
-                                <li><b>Client</b> <a href="www.valeriederoquemaurel.com">Valérie de Roquemaurel</a>
-                                </li>
-                                <li><b>Date</b> Aout 2009 — Actuellement
-                                </li>
-                                <li><b>Service</b> Développement et maintenance web
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modals cf portfolio.html -->
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
-	<script type="text/javascript">
-		$('#tool1').tooltip('hide');
-		$('#tool2').tooltip('hide');
-		$('#tool3').tooltip('hide');
-		$('#tool4').tooltip('hide');
-		$('#tool5').tooltip('hide');
-		$('#tool6').tooltip('hide');
-
-		$('#tool11').tooltip('hide');
-		$('#tool12').tooltip('hide');
-		$('#tool13').tooltip('hide');
-		$('#tool14').tooltip('hide');
-		$('#tool15').tooltip('hide');
-		$('#tool16').tooltip('hide');
-	</script>
-</body>
-
-</html>
