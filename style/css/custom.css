@@ -1,0 +1,24 @@
+.circle {
+	border-radius: 50%;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.btn.otherbtn {
+	color: #18bc9c;
+ }
+
+.btn.otherbtn:hover {
+	color: black;
+ }
+
+ .footer {
+	 bottom: 0;
+	 margin-bottom: -52px;
+	 margin-left: -8px;
+	 width: 101%;
+	 position: relative;
+}
