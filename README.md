@@ -1,6 +1,6 @@
 Portfolio - Personal website
 ======================
-Website of Antoine de Roquemaurel, freelance developer. This theme is inspired by [nrandecker/particle](https://github.com/nrandecker/particle) and         [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio). 
+Website of Antoine de Roquemaurel, freelance developer. This theme is inspire by [nrandecker/particle](https://github.com/nrandecker/particle) and         [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio). 
 
 ![screen1](readme/images/screen1.jpg)
 
